@@ -1,8 +1,8 @@
-.container-fluid{
+.container{
 	position:relative;
 	top:100px;
 	width:600px;
-	left:345px;
+	left:0px;
 	border: 1px solid;
 	height: 400px;
 }
