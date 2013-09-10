@@ -1,9 +1,10 @@
 .container{
 	position:relative;
-	top:100px;
-	width:600px;
+	top:40px;
+	width:800px;
+	left: 0px;
 	border: 1px solid;
-	height: 400px;
+	height: 600px;
 }
 
 html{
