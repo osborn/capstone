@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	$('#color1').click(function(){
 		$('#canvas').html('<img src="img/picture-three-colored.png">');
-		$('#canvas').append('<p>$15</p>');
+		$('#canvas').append('<p class="well well-sm">$15</p>');
 	});
 });
 
