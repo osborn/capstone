@@ -33,11 +33,12 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="panel-group" id="accordion">
-						  <div class="panel panel-default">
+						  <div class="panel panel-primary">
 						    <div class="panel-heading">
 						      <h4 class="panel-title">
 						        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 						          Choose a style
+						          <span class="glyphicon glyphicon-chevron-down" id="glyphicon"></span>
 						        </a>
 						      </h4>
 						    </div>
@@ -52,7 +53,7 @@
 								  </ol>
 
 								  <!-- Wrapper for slides -->
-								  <div class="carousel-inner">
+								  <div class="carousel-inner size">
 								    <div class="item active">
 								      <img src="img/picture-one.png" class="picture">
 								    </div>
@@ -65,7 +66,7 @@
 								  </div>
 
 								  <!-- Controls -->
-								  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+								  <a class="left carousel-control white" href="#carousel-example-generic" data-slide="prev">
 								    <span class="icon-prev"></span>
 								  </a>
 								  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
@@ -75,11 +76,12 @@
 						      </div>
 						    </div>
 						  </div>
-						  <div class="panel panel-default">
+						  <div class="panel panel-primary">
 						    <div class="panel-heading">
 						      <h4 class="panel-title">
 						        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 						          Choose a color
+						          <span class="glyphicon glyphicon-chevron-down" id="glyphicon"></span>
 						        </a>
 						      </h4>
 						    </div>
@@ -93,11 +95,12 @@
 						      </div>
 						    </div>
 						  </div>
-						  <div class="panel panel-default">
+						  <div class="panel panel-primary">
 						    <div class="panel-heading">
 						      <h4 class="panel-title">
 						        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 						          Choose your size
+						          <span class="glyphicon glyphicon-chevron-down" id="glyphicon"></span>
 						        </a>
 						      </h4>
 						    </div>
@@ -134,18 +137,20 @@
 				<br><br>
 				<div class="row">
 					<div class=" col-md-12">
-						<button class="btn btn-default" type="button">Save Design</button> 
-						<button class="btn btn-default" type="button">Add to Cart</button>
+						<button class="btn btn-info" type="button">Save Design</button> 
+						<button class="btn btn-danger" type="button">Add to Cart</button>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6" id="canvas"></div>
-				</div>
+			<div class="col-md-6" id="canvas">
+				<div class="panel panel-danger" id="price"><p>Price:</p></div>
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body></html>

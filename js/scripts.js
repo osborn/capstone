@@ -1,13 +1,14 @@
+var p = '$15';
+
 $(document).ready(function(){
 	$('.carousel-inner').find('img').click(function(){
 		var clone = $(this).clone();
 		$('#canvas').html(clone);
-		$('#canvas').append('<p>$15</p>');
+		$('#price').html(p);
 	});
 
 	$('#color1').click(function(){
 		$('#canvas').html('<img src="img/picture-three-colored.png">');
-		$('#canvas').append('<p class="well well-sm">$15</p>');
 	});
 });
 
