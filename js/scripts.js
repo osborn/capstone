@@ -3,5 +3,9 @@ $(document).ready(function(){
 		var clone = $(this).clone();
 		$('#canvas').html(clone);
 	});
+
+	$('#color1').click(function(){
+		$('#canvas').html('<img src="img/picture-three-colored.png">');
+	});
 });
 
