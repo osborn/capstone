@@ -1,4 +1,4 @@
-.container{
+.console{
 	position:relative;
 	top:40px;
 	width:800px;
@@ -41,4 +41,8 @@ html{
 
 #color3{
 	background: red;
+}
+
+.center{
+	text-align: center;
 }
